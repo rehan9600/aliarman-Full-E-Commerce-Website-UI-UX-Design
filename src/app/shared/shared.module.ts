@@ -6,6 +6,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { MaterialModule } from '../material.module';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 
 @NgModule({
@@ -18,6 +19,8 @@ import { MaterialModule } from '../material.module';
     SharedRoutingModule,
     ReactiveFormsModule,
     MaterialModule,
+    RouterModule,
+    RouterOutlet,
     FormsModule,
   ],
   exports: [

@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MaterialModule } from './material.module';
 import { SharedModule } from './shared/shared.module';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { SharedModule } from './shared/shared.module';
     BrowserAnimationsModule,
     FontAwesomeModule,
     MaterialModule,
-    SharedModule
+    RouterOutlet,
+    SharedModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
